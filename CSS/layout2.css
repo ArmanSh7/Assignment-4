@@ -78,15 +78,18 @@ main {
   align-content: center; 
   padding-left: 20px;
   margin-bottom: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   line-height: 1;
 }
 
 h1{
-  font-size: 43pt;
+  font-size: 3.4em;
 }
 
 p{
-  font-size: 28pt;
+  font-size: 2.2em;
 }
 
 .cells {
